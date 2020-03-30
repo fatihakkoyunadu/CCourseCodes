@@ -21,7 +21,7 @@ int main()
 		*/
 	}
 
-	printf("\n\The value of i after exiting the loop is %d\n\n", i);
+	printf("\n The value of i after exiting the loop is %d\n\n", i);
 
 	printf("\nThe loop condition checks the conditional statement before it loops again.\n\n");
 
