@@ -16,6 +16,7 @@ int main() {
 
 	for (int i = 0; i < sizeof(myArr) / sizeof(myArr[0]); i++){
 		for (int j = 0; j < sizeof(myArr[0]) / sizeof(myArr[0][0]); j++){
+			myArr[i][j] = (i+1)*(j+1);
 			printf("myArr[%i][%i]=%i\t", i, j, myArr[i][j]);
 		}
 		printf("\n\r");
